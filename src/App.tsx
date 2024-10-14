@@ -154,6 +154,7 @@ function App() {
     }
   }
 
+
   const pixelInfoChange = (e: React.MouseEvent<HTMLCanvasElement>) => {
     const {p, x, y} = getPixelInfo(e);
     setPixelInfo({ 
@@ -451,5 +452,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
